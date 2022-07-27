@@ -1,0 +1,37 @@
+.panel {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-charts {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.panel-text {
+    margin-bottom: 2rem;
+}
+
+.panel-charts__chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-charts__chart__text {
+    margin-top: 1rem;
+}
+
+.first::before {
+    content: "Create ";
+    color: #0061ac;
+}
+
+.second::before {
+    content: "Predefined ";
+    color: #ff374c;
+}

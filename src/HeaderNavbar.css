@@ -1,0 +1,27 @@
+.header-navigation {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.header-navigation__link {
+    padding-right: 1rem;
+}
+
+.header-navigation__button {
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background-color: #249b93;
+    font-size: 16px;
+}
+
+@media all and (max-width: 965px) {
+    .header-navigation {
+        display: none;
+    }
+    .header-hamburger-menu {
+        display: block;
+    }
+}
